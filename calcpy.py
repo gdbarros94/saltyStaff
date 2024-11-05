@@ -11,7 +11,7 @@ def divisao(a, b):
         print("Divisão por 0.")
         return None
 
-def banana ():
+def main ():
     while True:
         num1 = float(input("Digite o primeiro numero: "))
         num2 = float(input("Digite o segundo numero: "))
@@ -34,6 +34,27 @@ def banana ():
         if continuar.lower() != 's':
             break
     print("Saindo")
+
+def banana():
+    objeto = {
+        'key': 'value',
+        'key2': 'value2',
+    }
+    print(f"{objeto['key']}")
+    print("banananananananananananananana")
+
+class a:
+    def __init__():
+        pass
+    def maca():
+        pass
+
+objclass = new a()
+objclass = {
+    'maca': pass,
+    '__init__': pass,
+}
+object.maca()
 
 if __name__ == '__main__':
     banana()
